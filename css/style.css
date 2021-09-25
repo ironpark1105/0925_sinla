@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Hahmlet:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+body{
+   margin:0;
+   font-family: 'Gowun Dodum', sans-serif;
+}
+a{
+   text-decoration:none;
+   color:#333;
+}
+a:hover{
+   color:#666;
+}
+h1, h2, h3, h4, h5, h6{
+   font-family: 'Hahmlet', serif;
+   font-weight:700;
+}
+.clearfix::after{
+   content:"";
+   display:table;
+   clear:both;
+}
+.d-flex{
+   display: flex;
+}
+.align-items-center{
+   align-items: center;
+}
+.mx-width{
+   max-width: 100%;
+}
+.justyfy-content-between{
+   justify-content: space-between;
+}
+.mt-1{
+   margin-top:10px;
+}
+.mt-2{
+   margin-top:20px;
+}
+.mt-3{
+   margin-top:30px;
+}
+.mt-4{
+   margin-top:40px;
+}
+.md-15{
+   font-size:15px;
+   margin-left:10px;
+   margin-right:20px;
+}
+.mt-40{
+   margin-top: 40px;
+}
+.md-15r{
+   font-size:15px;
+   margin-left:5px;
+   margin-right:5px;
+}
+.text-center{
+   text-align:center;
+}
+.text-right{
+   text-align:right;
+}
+header{
+   height:90px;
+   background-color:#f1ebd6;
+   padding-top:10px;
+}
+.container{
+      width:1200px;
+}
+ul.t-nav{
+   list-style:none;
+   margin:0;
+   padding:0;
+}
+
+ul.t-nav li{
+   float:left;
+   width:22%;
+   text-align:center;
+   height:15px;
+   font-size:14px;
+   line-height:15px;
+   border-right:1px solid #666;
+}
+ul.t-nav li:nth-child(3),
+ul.t-nav li:last-child{
+   border:none;
+   cursor:pointer;
+   width:28%
+}
+.to-nav{
+   padding-top:25px;
+}
+.to-nav a{
+   display:block;
+   text-align:right;
+   width:30%;
+   float:right;
+}  
+/******** main ********/
+.ht56{
+   height:560px;
+   width:100%;
+   background:url(../images/main.jpg) repeat-y center bottom;
+   background-size:cover;
+   position: relative;
+   overflow: hidden;
+}  
+video{
+   position: absolute;
+   z-index: 0;
+   top: 0;
+   left: 0;
+   width: 100%;
+   
+}
+.h-banner{
+   position:relative;
+   height:560px;
+   z-index: 1;
+}
+.h-banner div{
+   position:absolute;
+   height:190px;
+   bottom:0px;
+}
+.h-banner div.txt-box2{
+   right:0;
+   bottom:0;
+}
+a.package{
+   border-top: 5px solid #999;
+   border-left: 5px solid #999;
+   outline: 10px solid #333;
+   padding:5px 15px;
+   font-size:20px;
+   font-weight:bold;
+   background:rgba(255,255,255,0.7);
+}
+.h-banner div h1,.h-banner div h3,
+.h-banner div p{
+   margin:0;
+}
+.h-banner h3{
+   margin-top:20px;
+   font-size:30px;
+   color:#333;
+}
+.h-banner h1{
+   color:#333;
+   font-variant:small-caps;
+   font-size:50px;
+   letter-spacing:4px;
+   border-bottom:1px solid #333;
+   text-shadow:1px 0 0 #fff, 
+               -1px 0 0 #fff, 
+               0 1px 0 #fff, 
+               0 -1px 0 #fff;
+
+}
+.h-banner h3 span{
+   font-size:25px;
+   padding:3px 15px;
+   background:#666;
+   color:#fff;
+   margin-left:20px;
+   border-radius:1px;
+}
+.h-banner p{
+   padding-top:10px;
+   font-size:20px;
+   font-weight:bold;
+}
+.section01{
+   height:90px;
+}
+a.yeyak,a.barogagi{
+   line-height:90px;
+}
+a.barogagi{
+   float:right;
+   text-decoration:underline;
+}
+
+.section_title{
+   width:260px;
+   text-align:center;
+   margin:70px auto 0;
+   border-bottom:1px solid #cfcdc0;
+   color:#2b2b2b;
+   font-size:40px;
+}
+h1.section_eng_title{
+   font-family: 'Gowun Dodum', sans-serif;
+   color:#cfcdc0;
+   font-size:22px;
+   letter-spacing:4px;
+   text-align:center;
+   margin:5px auto;
+}
+.mt-40{
+   margin-top:40px;
+}
+.mb-40{
+   margin-bottom:40px;
+}
+
+
+
+
+.members{
+   height:250px;
+   background:url(../images/img_introduce_5.jpg) no-repeat 0px -150px;
+   background-size:cover;
+   margin-bottom:30px;
+}
+.suite{
+   height:250px;
+   background:url(../images/001.jpg) no-repeat center top;
+   background-size:cover;
+}
+.exclusive{
+   height:250px;
+   overflow: hidden;
+   background:url(../images/001.jpg) no-repeat center top;
+   background-size:cover;
+}
+.exclusive2{
+   height:200px;
+   margin-bottom:30px;
+   background:url(../images/resort_family_2.jpg) no-repeat center top;
+   background-size:cover;
+}
+.savemore{
+   height:300px;
+   background:url(../images/img_story_1.jpg) no-repeat center top;
+   background-size:cover;
+}
+
+.exclusive{
+height: 250px;
+margin-bottom: 30px;
+background-image: url(../images/img_introduce_5.jpg);
+background-size: cover
+;
+}
+.position-absolute{
+   position: absolute;
+}
+.position-relative{
+   position: relative;
+}
+.savemore{
+height: 300px;
+background-image: url(../images/dmFaci_201812110549043800.jpg);
+background-size: cover;
+}
+
+.members-only{
+width: 100px;
+height: 100px;
+background-color: #333;
+color: #fff;
+text-align: center;
+font-weight: bold;
+font-size: 16px;
+font-family: 'Hahmlet';
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 30px;
+left: 30px;
+}
+
+.members-only p{
+   margin: 0;
+}
+.only{
+   letter-spacing: 14px;
+}
+
+.info{
+
+   position: absolute;
+   left: 30px;
+   bottom: 10px;
+}
+.info h1, h4, p{
+   margin: 0;
+   color: #fff;
+}
+
+.savemore .info h1,
+.savemore .info h4,
+.savemore .info p{
+}
+.exclusive2 .info{
+   text-align: right;
+   width: 85%;
+}
+
+
+
+
+
+/**************03시작 *************/
+.section03{
+   margin-top: 100px;
+   background-color: #f6f6f6;
+   padding-top: 10px;
+   padding-bottom: 45px;
+}
+.st0{fill:#f6f6f6;}
+.st1{fill:#f6f6f6;}
+
+#members{
+   width: 45%;
+   
+}
+
+#perks,#points{
+   width: 45%;
+   
+}
+
+
+.svg-txt{
+   padding-left: 10px;
+
+}
+
+
+
+.svg-txt h2, .svg-txt p{
+   margin: 0;
+   padding-bottom: 10px;
+   padding-bottom: 0;
+}
+
+
+.svg-txt p{
+   font-size: 14px;
+   letter-spacing: -2.5px;
+   color: black;
+}
+
+.image img{
+   width: 300px;
+}
+
+.youtube{
+   margin-top: 50px;
+   width: 100%;
+   height: 600px;
+}
